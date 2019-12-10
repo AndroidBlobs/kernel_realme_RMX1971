@@ -54,7 +54,6 @@ static void adsp_load_fw(struct work_struct *adsp_ldr_work)
 {
 	struct platform_device *pdev = adsp_private;
 	struct adsp_loader_private *priv = NULL;
-
 	const char *adsp_dt = "qcom,adsp-state";
 	int rc = 0;
 	u32 adsp_state;
